@@ -1,27 +1,20 @@
 class Stack {
-    constructor(){
+    constructor() {
         this.items = []
     }
 
-    push(value) {
+
+    push(value){
         this.items.push(value)
     }
+
 
     pop(){
         return this.items.pop()
     }
 
-    peek(){
-        return this.items[this.items.length-1]
-    }
-
-    print(){
-        console.log(this.items.join("=>")+"=>Null")
-    }
+    
 }
-
-
-
 
 const stack = new Stack()
 stack.push(10)
