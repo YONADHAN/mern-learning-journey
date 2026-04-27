@@ -172,3 +172,8 @@ list.print()
 list.reverse()
 list.print()
 // 30 -> 20 -> 10 -> null
+
+
+//linked list
+//hash table
+//all react problems
